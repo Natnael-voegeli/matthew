@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
   <meta charset="UTF-8">
@@ -12,20 +12,22 @@
 </head>
 
 <body>
-  <header class="header-editor">
-    <nav>
-      <h1 class="mini-logo ">erupt</h1>
-      <ul class="ul">
+  <header class="header-editor my-row">
+    <h1 class="mini-logo">erupt</h1>
+
+    <figure id="nav-triggers">
+      <a href="#" id="open-menu" class="trigger"><img src="images/burger-icon.svg" alt="Burger menu"></a>
+      <a href="#" id="close-menu" class="trigger"><img src="images/close-icon.svg" alt="Close menu"></a>
+
+    </figure>
+    <nav id="main-nav">
+
+      <ul class="menu my-row">
         <li><a href="index.html">HOME</a></li>
         <li><a href="offers.html">OFFERS</a></li>
         <li><a href="E-sports.html">E-SPORTS</a></li>
         <li><a href="events.html">EVENTS</a></li>
-        <li><a href="about-us">ABOUT US</a></li>
-        <li><a href=".."><span class="icon-facebook"></span></a></li>
-        <li><a href=""><span class="icon-instagram"></span></a></li>
-        <li><a href=".."><span class="icon-discord"></span></a></li>
-        <li><a href=".."> <span class="icon-twitter"></span></a></li>
-        <li><a href=".."> <span class="icon-twitch"></span></a></li>
+        <li><a href="about-us.html">ABOUT US</a></li>
       </ul>
 
     </nav>
@@ -33,18 +35,87 @@
 
 
   <main>
-  <div>
-   
-  </div>
+    <div class="content-container">
+      <div class="about-us three-col mb-3">
+        <article>
+          <img src="images/profile-images/dario.jpg" alt="">
+          <h3>Dario Kvasnicka</h3>
+          <h6>Gründer und Vorsitzender <br>der Geschäftsführung</h6>
+          <p class="read-more-content" id="read-more-content-1">
+            Jurist (cand. MLaw Unifr)
 
+            Als er sich nach seinem Studienabschluss wieder dem Gamen und eSports widmete, bemerkte er, dass dieser
+            Lifestyle recht asozial enden kann. Seitdem widmet er sich mit voller Kraft der Modernisierung des
+            Gameverhaltens. Nebenbei kümmerte er sich um seine Pflanzen und versucht sich, gemeingefährlich, dem
+            Bogenschiessen.
+
+
+          </p>
+           <button>Read more</button> <!--id="readmore-1" key="1" -->
+        </article>
+        <article>
+          <img src="images/profile-images/levi.jpg" alt="">
+          <h3>Levi Trivino</h3>
+          <h6>Gründer und Geschäftsführer</h6>
+          <p class="read-more-content" id="read-more-content-2">
+            Jazzist an der Swiss Jazz School und Kinderbetreuer; ja, viel Geld verdienen stand bei ihm schon immer an
+            erster Stelle. Als ausgleich zu diesem stressigen Lifestyle, gönnt er sich ab und zu ein historisches
+            Strategiespiel oder eine Ausfahrt mit dem Motorrad.
+          </p>
+           <button>Read more</button> <!--id="readmore-2" key="2" -->
+        </article>
+        <article>
+          <img src="images/profile-images/matthew.jpg" alt="">
+          <h3>Matthew Wildhaber</h3>
+          <h6>Gründer und Leitüng Finanzen und Strategie</h6>
+          <p class="read-more-content" id="read-more-content-3">
+            Stud. BWL (Unifr) und strebender Schauspieler kennt den Unterschied zwischen Rugby und American Football.
+            Kann
+            Hamlets ''sein oder nicht sein'' auswendig aufsagen und lernt im Moment wie man einen Handstand macht. Zudem
+            begeisterter gelegenheitlicher Gelegenheitsspieler
+          </p>
+          <button>Read more</button> <!-- id="readmore-3" key="3" -->
+        </article>
+      </div>
+
+      <div class="about-us two-col">
+        <article>
+          <img src="images/fortnite.jpg" alt="">
+          <h3>Patrick Brunner</h3>
+          <h6>Verantwortlicher Marketing und Content</h6>
+          <p class="read-more-content" id="read-more-content-4">
+            Stud. BLaw (Unibe)
+
+            Afroschweizer, in Bern zuhause. Leidenschaftlicher Boxer und Fischer. Gamer seit den 90iger Jahren und immer
+            zu haben für ein gutes Strategiespiel. Er arbeitet wie viele andere beim Bund und Erupt eSports unter
+            anderem
+            als Content-Produzent.
+
+
+          </p>
+          <button>Read more</button> <!-- id="readmore-4" key="4" -->
+        </article>
+        <article>
+          <img src="images/fortnite.jpg" alt="">
+          <h3>Sebastian Wirth</h3>
+          <h6>Geschäftsführer und Verantwortlicher <br>Gastronomie</h6>
+          <p class="read-more-content" id="read-more-content-5">
+            Der Mann von Möriswil arbeitet seit geraumer Zeit in verschiedenen Gastrobetrieben in der Stadt Bern. Damit
+            das leben in der Schweiz nicht zu sicher ist, ist der lokal respektierte Motorradfahrer oft auf den Strassen
+            unterwegs oder geht in den Bergen mit seinem Snowboard auf Lawinensuche.
+          </p>
+           <button>Read more</button> <!--id="readmore-5" key="5" -->
+        </article>
+      </div>
+    </div>
   </main>
 
 
   <footer>
     <div>
       <ul class="sponsors-icon">
-        <li><a href="https://www.bscyb.ch" target="blank"><img src="images/sponsor-icons/BSC-Young-Boys.png"
-              alt=""></a></li>
+        <li><a href="https://www.bscyb.ch" target="blank"><img src="images/sponsor-icons/BSC-Young-Boys.png" alt=""></a>
+        </li>
         <li><a href="https://www.ea.com" target="blank"><img src="images/sponsor-icons/ea_games.png" alt=""></a></li>
         <li><a href="https://www.migros.ch/de.html" target="blank"><img src="images/sponsor-icons/migros.png"
               alt=""></a></li>
@@ -54,6 +125,73 @@
               src="images/sponsor-icons/swisscom.jpg" alt=""></a></li>
       </ul>
     </div>
+    <section class="my-row-1 footer-list">
+      <figure class="copy-right">&copy; 2019 by nobody</figure>
+      <ul class="my-row">
+        <li><a href=".."><span class="icon-facebook"></span></a></li>
+        <li><a href=""><span class="icon-instagram"></span></a></li>
+        <li><a href=".."><span class="icon-discord"></span></a></li>
+        <li><a href=".."> <span class="icon-twitter"></span></a></li>
+        <li><a href=".."> <span class="icon-twitch"></span></a></li>
+      </ul>
+    </section>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script>
+    // let textOpenId = 0;
+    // $("#readmore-1,#readmore-2,#readmore-3,#readmore-4,#readmore-5").click(function(){
+    //   const btnKey= $(this).attr('key');
+    //   const closedBtnText = "Read more"; // text on the btn when the text is hidden
+    //   const openBtnText = "Less"; // text on the btn when the text is shown
+      
+    //   if(textOpenId === 0){
+    //     $("#readmore-"+btnKey).html(openBtnText);
+    //   } else if(btnKey=== textOpenId){
+    //     $("#readmore-"+btnKey).html(closedBtnText);
+    //   } else {
+    //     $("#readmore-"+textOpenId).html(closedBtnText);
+    //     $("#readmore-"+btnKey).html(openBtnText);
+    //   }
+
+    //   $("#read-more-content-"+btnKey).slideToggle("fast");
+    //   if(textOpenId !== 0 && textOpenId !== btnKey){
+    //     $("#read-more-content-"+textOpenId).slideToggle("fast");
+    //   }
+    //   if(btnKey=== textOpenId){
+    //     textOpenId = 0;
+    //   } else {
+    //     textOpenId = btnKey;
+    //   }
+    // })
+    $("button").on('click', function () {
+
+      var $this = $(this);
+
+      $(".read-more-content").slideUp("fast"); //console.log("NOT OPEN CLASS !");
+      $('button').html('Read more');
+
+      if (! $this.hasClass("open")) {
+        $this.parent().find('.read-more-content').slideDown("fast");
+        $('button').removeClass('open');
+        $this.addClass('open');
+        $this.html("Less");
+      }
+      else {
+        $this.removeClass('open');
+      }
+      
+      // $this.toggleClass("open");
+
+      // if ($this.hasClass("open")) {
+      //   $this.html("Less");
+      // } else {
+      //   $this.html("Read more");
+      // }
+    });
+
+  </script>
+  <script src="app.js"></script>
 </body>
+
 </html>
