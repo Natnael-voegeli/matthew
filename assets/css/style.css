@@ -198,7 +198,7 @@
    align-items: center;
    width: 100%;
    height: 100vh;
-   background-image: url(images/background-lounge-darker.jpg);
+   background-image: url(/assets/images/background-lounge-darker.jpg);
    background-size: cover;
    background-repeat: no-repeat;
  }
@@ -424,7 +424,7 @@
 
  .background-for-all {
    width: 100%;
-   background-image: url(images/background-lounge-darker.jpg);
+   background-image: url(/assets/images/background-lounge-darker.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    color: white;
