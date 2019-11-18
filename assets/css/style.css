@@ -93,7 +93,7 @@
    transition: color .5s ease, background .5s ease;
  }
 
- a:hover, .menu:hover {
+ a:hover, .menu:hover, .mini-logo:hover {
    color: yellow;
    cursor: pointer;
  }
