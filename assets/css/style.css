@@ -128,7 +128,9 @@
  .vh {
    height: 100vh;
  }
-
+.height{
+  height: 100%;
+}
  .infected {
    font-family: infected;
  }
@@ -424,6 +426,7 @@
 
  .background-for-all {
    width: 100%;
+   z-index: 1;
    background-image: url(../images/background-lounge-darker.jpg);
    background-size: cover;
    background-repeat: no-repeat;

@@ -12,7 +12,9 @@
 
 <body>
   <header class="header-editor my-row">
-      <a href="index.html"><h1 class="mini-logo infected">erupt</h1></a>
+    <a href="index.html">
+      <h1 class="mini-logo infected">erupt</h1>
+    </a>
 
     <figure id="nav-triggers">
       <a href="#" id="open-menu" class="trigger"><img src="assets/images/burger-icon.svg" alt="Burger menu"></a>
@@ -49,7 +51,8 @@
 
 
           </p>
-           <button>Read more</button> <!--id="readmore-1" key="1" -->
+          <button>Read more</button>
+          <!--id="readmore-1" key="1" -->
         </article>
         <article>
           <img src="assets/images/profile-images/levi.jpg" alt="">
@@ -60,7 +63,8 @@
             erster Stelle. Als ausgleich zu diesem stressigen Lifestyle, gönnt er sich ab und zu ein historisches
             Strategiespiel oder eine Ausfahrt mit dem Motorrad.
           </p>
-           <button>Read more</button> <!--id="readmore-2" key="2" -->
+          <button>Read more</button>
+          <!--id="readmore-2" key="2" -->
         </article>
         <article>
           <img src="assets/images/profile-images/matthew.jpg" alt="">
@@ -102,7 +106,8 @@
             das leben in der Schweiz nicht zu sicher ist, ist der lokal respektierte Motorradfahrer oft auf den Strassen
             unterwegs oder geht in den Bergen mit seinem Snowboard auf Lawinensuche.
           </p>
-           <button>Read more</button> <!--id="readmore-5" key="5" -->
+          <button>Read more</button>
+          <!--id="readmore-5" key="5" -->
         </article>
       </div>
     </div>
@@ -112,16 +117,18 @@
   <footer>
     <div>
       <ul class="sponsors-icon">
-        <li><a href="https://www.bscyb.ch" target="blank"><img src="assets/images/sponsor-icons/BSC-Young-Boys.png" alt=""></a>
+        <li><a href="https://www.bscyb.ch" target="blank"><img src="assets/images/sponsor-icons/BSC-Young-Boys.png"
+              alt=""></a>
         </li>
-        <li><a href="https://www.ea.com" target="blank"><img src="assets/images/sponsor-icons/ea_games.png" alt=""></a></li>
+        <li><a href="https://www.ea.com" target="blank"><img src="assets/images/sponsor-icons/ea_games.png" alt=""></a>
+        </li>
         <li><a href="https://www.migros.ch/de.html" target="blank"><img src="assets/images/sponsor-icons/migros.png"
               alt=""></a></li>
-        <li><a href="https://www.playstation.com/en-us/" target="blank"><img src="assets/images/sponsor-icons/playstation.png"
-              alt=""></a></li>
+        <li><a href="https://www.playstation.com/en-us/" target="blank"><img
+              src="assets/images/sponsor-icons/playstation.png" alt=""></a></li>
         <li><a href="https://www.swisscom.ch/en/residential.html" target="blank"><img
               src="assets/images/sponsor-icons/swisscom.jpg" alt=""></a></li>
-        </ul>
+      </ul>
     </div>
     <section class="my-row-1 footer-list">
       <figure class="copy-right">&copy; 2019 by nobody</figure>
@@ -142,7 +149,7 @@
     //   const btnKey= $(this).attr('key');
     //   const closedBtnText = "Read more"; // text on the btn when the text is hidden
     //   const openBtnText = "Less"; // text on the btn when the text is shown
-      
+
     //   if(textOpenId === 0){
     //     $("#readmore-"+btnKey).html(openBtnText);
     //   } else if(btnKey=== textOpenId){
@@ -169,7 +176,7 @@
       $(".read-more-content").slideUp("fast"); //console.log("NOT OPEN CLASS !");
       $('button').html('Read more');
 
-      if (! $this.hasClass("open")) {
+      if (!$this.hasClass("open")) {
         $this.parent().find('.read-more-content').slideDown("fast");
         $('button').removeClass('open');
         $this.addClass('open');
@@ -178,7 +185,7 @@
       else {
         $this.removeClass('open');
       }
-      
+
       // $this.toggleClass("open");
 
       // if ($this.hasClass("open")) {
