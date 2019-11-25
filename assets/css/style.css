@@ -156,6 +156,7 @@
    background-color: black;
    position: fixed;
    width: 100%;
+   z-index: 10;
  }
 
  .mini-logo {
@@ -426,7 +427,6 @@
 
  .background-for-all {
    width: 100%;
-   z-index: 1;
    background-image: url(../images/background-lounge-darker.jpg);
    background-size: cover;
    background-repeat: no-repeat;
